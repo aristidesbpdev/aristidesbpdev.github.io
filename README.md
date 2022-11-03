@@ -1,2 +1,2 @@
 # site
-site hospedagem gratis
+theme: minima
