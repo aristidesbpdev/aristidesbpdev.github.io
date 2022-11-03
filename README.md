@@ -1,2 +1,2 @@
 # site
-theme: minima
+theme: Minima
