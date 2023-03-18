@@ -1,4 +1,4 @@
-<style>
+
 * {
   box-sizing: border-box;
 }
@@ -101,4 +101,9 @@ body {
     width: 100%;
   }
 }
-</style>
+
+/*ajustando tamanho das imagens*/
+img {
+  width: 100%;
+  height: auto;
+}
