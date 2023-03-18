@@ -1,3 +1,8 @@
+/*ajustando tamanho das imagens*/
+img {
+  width: 100%;
+  height: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -26,7 +31,7 @@ body {
   background-color: #333;
 }
 
-/* Style the topnav links */
+/* Style the topnav links ----------------------------------------------------------------------------------*/
 .topnav a {
   float: left;
   display: block;
@@ -62,6 +67,8 @@ body {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+  height: auto;
+  
 }
 
 /* Add a card effect for articles */
@@ -102,8 +109,4 @@ body {
   }
 }
 
-/*ajustando tamanho das imagens*/
-img {
-  width: 100%;
-  height: auto;
-}
+
