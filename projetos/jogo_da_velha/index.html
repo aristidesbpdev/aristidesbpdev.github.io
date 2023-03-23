@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Jogo da Velha</h1>
+    <div class="container">
+      <form>
+        <label for="rows">Número de Linhas:</label>
+        <input type="number" id="rows" name="rows" min="3" max="10" value="3">
+
+        <label for="cols">Número de Colunas:</label>
+        <input type="number" id="cols" name="cols" min="3" max="10" value="3">
+
+        <button type="button" id="start-button">Começar Jogo</button>
+      </form>
+
+      <table id="game-table"></table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
