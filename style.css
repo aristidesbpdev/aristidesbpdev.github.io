@@ -1,9 +1,3 @@
-/*ajustando tamanho das imagens*/
-img {
-  width: 100%;
-  height: auto;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -14,12 +8,16 @@ body {
   background: #f1f1f1;
 }
 
+
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
   background: white;
 }
+
+
 
 .header h1 {
   font-size: 50px;
